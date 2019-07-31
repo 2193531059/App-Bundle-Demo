@@ -3,7 +3,7 @@ apply plugin: 'com.android.dynamic-feature'
 android {
     compileSdkVersion 28
     
-
+    //注意此处如果有多渠道打包或者声明了java版本内容，需要完全复制baseAPK里面的build.gradle对应内容
 
     defaultConfig {
         minSdkVersion 15
